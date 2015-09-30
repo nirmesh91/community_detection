@@ -1,5 +1,11 @@
 import networkx as nx
 
+"""
+Based on J. Baumes, M. Goldberg, and M. Magdon-ismail, “Efficient identification of overlapping communities,” in In IEEE International
+Conference on Intelligence and Security Informatics
+(ISI, pp. 27–36, 2005.)
+"""
+
 def main():
     # reading the input and creating a directed graph from it using newtworkx
     v,e = [int(x) for x in input().split(' ')] 
